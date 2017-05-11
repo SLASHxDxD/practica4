@@ -1,0 +1,65 @@
+.td
+{
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px;
+  width: 130%;
+    
+}
+.cn{
+    background-color: silver;
+      background-image: url(g2.gif);
+}
+  
+.con {
+    text-align: center;
+    padding: 10px 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+    background-color: transparent;
+    
+}
+.imput-100{
+   
+    width: 95%;
+    margin-bottom: 14px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+    
+.ds1
+{
+    width: 95%;
+    background: deepskyblue;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 20px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid crimson;
+}
+.botones{
+     margin-bottom: 14px;
+    width: 45%;
+    background: crimson;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.botones:active{
+    transform: scale(1.05);
+}
+
